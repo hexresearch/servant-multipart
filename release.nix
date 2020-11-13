@@ -9,5 +9,6 @@ let
 in project {
   packages = {
     servant-multipart = ./.;
+    servant-multipart-api = ./api;
   };
 }
